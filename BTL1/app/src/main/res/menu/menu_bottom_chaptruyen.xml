@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/doun_chap"
+        android:icon="@drawable/arrow_back_fill0_wght400_grad0_opsz24"
+        android:title=""
+        />
+
+
+    <item
+        android:id="@+id/next_chap"
+        android:icon="@drawable/arrow_forward_fill0_wght400_grad0_opsz24"
+        android:title=""
+        />
+
+
+</menu>

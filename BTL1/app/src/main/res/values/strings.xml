@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BTL1</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="homeTruyen">Tất cả các truyện</string>
+    <string name="hotTruyen">Tất cả các truyện</string>
+    <string name="theoDoi">Tất cả các truyện</string>
+    <string name="TheLoai">Tất cả các truyện</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

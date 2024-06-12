@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_header_home"
+    tools:context=".fragrment.HomeTruyen">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <LinearLayout
+        android:id="@+id/llHome111"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tvHome111"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Truyện Mới Cập Nhật "
+            android:padding="10dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="30sp"
+            android:fontFamily="@font/oswaldregular"
+            />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/home_truyen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/llHome111"
+
+        android:orientation="horizontal" />
+
+</RelativeLayout>
